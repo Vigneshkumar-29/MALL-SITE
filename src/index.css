@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-container-high: #e9e8e5;
+  --color-surface-bright: #faf9f6;
+  --color-on-primary-fixed-variant: #394b3c;
+  --color-surface-variant: #e3e2e0;
+  --color-on-secondary-fixed-variant: #444744;
+  --color-on-error-container: #93000a;
+  --color-error: #ba1a1a;
+  --color-on-background: #1a1c1a;
+  --color-outline: #737872;
+  --color-tertiary-container: #433b2c;
+  --color-surface-tint: #506352;
+  --color-on-error: #ffffff;
+  --color-on-tertiary-container: #b1a592;
+  --color-tertiary: #2c2518;
+  --color-surface-dim: #dbdad7;
+  --color-on-surface-variant: #434843;
+  --color-secondary-container: #e1e3df;
+  --color-on-tertiary-fixed-variant: #4e4636;
+  --color-primary: #192a1c;
+  --color-on-surface: #1a1c1a;
+  --color-inverse-surface: #2f312f;
+  --color-surface-container-low: #f4f3f1;
+  --color-background: #faf9f6;
+  --color-secondary-fixed: #e1e3df;
+  --color-secondary: #5c5f5c;
+  --color-primary-fixed: #d3e8d3;
+  --color-surface: #faf9f6;
+  --color-error-container: #ffdad6;
+  --color-secondary-fixed-dim: #c5c7c3;
+  --color-tertiary-fixed-dim: #d1c5b1;
+  --color-inverse-primary: #b7ccb8;
+  --color-on-secondary: #ffffff;
+  --color-surface-container: #efeeeb;
+  --color-outline-variant: #c3c8c0;
+  --color-surface-container-highest: #e3e2e0;
+  --color-on-primary-fixed: #0e1f12;
+  --color-primary-container: #2e4031;
+  --color-tertiary-fixed: #eee1cc;
+  --color-surface-container-lowest: #ffffff;
+  --color-primary-fixed-dim: #b7ccb8;
+  --color-on-primary: #ffffff;
+  --color-on-tertiary-fixed: #211b0e;
+  --color-on-secondary-container: #626562;
+  --color-on-primary-container: #97ab98;
+  --color-on-secondary-fixed: #191c1a;
+  --color-inverse-on-surface: #f1f1ee;
+  --color-on-tertiary: #ffffff;
+
+  --font-headline: "Cormorant Garamond", serif;
+  --font-body: "Space Mono", monospace;
+  --font-display: "Syne", sans-serif;
+}
+
+@layer base {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+    font-size: 20px;
+  }
+}
+
+@layer utilities {
+  .silk-finish {
+    background: linear-gradient(135deg, #192a1c 0%, #2e4031 100%);
+  }
+  .atmospheric-shadow {
+    box-shadow: 0 32px 64px -12px rgba(25, 42, 28, 0.04);
+  }
+}
